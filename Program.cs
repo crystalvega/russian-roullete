@@ -6,21 +6,6 @@ using System.Threading.Tasks;
 
 namespace Russian_Roullete
 {
-	public class Config
-	{
-		private string path;
-		public Config(string path)
-		{
-			this.path = path;
-			Read();
-		}
-		private void Read()
-		{
-			IEnumerable<string> lines = File.ReadLines(path);
-			foreach (string line in lines) {
-			}
-		}
-	}
 	public class People
 	{
 		string name = "";
